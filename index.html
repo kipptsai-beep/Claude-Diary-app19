@@ -150,7 +150,8 @@ const SUPABASE_URL = "https://rsuguwhgzyyvhlehpqqu.supabase.co";
 const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJzdWd1d2hnenl5dmhsZWhwcXF1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3Nzc5ODU4NDUsImV4cCI6MjA5MzU2MTg0NX0.SX9ixJYye0GNdKvcJ5c3FZAeN9s1B_oX7XnU8xwbkR8";
 // ===== Claude API Key（用於 OCR 手寫辨識）=====
 // 請到 https://console.anthropic.com 取得你的 API Key
-const CLAUDE_API_KEY = localStorage.getItem('claude_api_key') || '';
+//const CLAUDE_API_KEY = localStorage.getItem('claude_api_key') || '';
+const GOOGLE_VISION_API_KEY = ' AIzaSyBtQxBOmJaYWIeuuuWCA9ABvLCuSKqjdrQ'; 
 
 const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON);
 let currentUser = null;
